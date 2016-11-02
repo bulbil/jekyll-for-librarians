@@ -14,8 +14,9 @@
 
 ### Further Resources
 
-- [[https://mademistakes.com/articles/using-jekyll-2016/]]
-- Jekyll
-- Gulp
-- npm
+- [How I am using jekyll by the creator of this theme](https://mademistakes.com/articles/using-jekyll-2016/)
+- [Jekyll](https://jekyllrb.com/)
+- [Jekyll Tips](http://jekyll.tips/)
+
+
 - Lynda tutorials
