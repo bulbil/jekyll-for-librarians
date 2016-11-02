@@ -1,0 +1,10 @@
+---
+layout: single
+title: "Peace Button Collection"
+author_profile: false
+permalink: /buttons-page/
+---
+
+{% for x in site.portfolio %}
+  <a href="{{ x.url }}"><h2>{{ x.title }}</h2></a>
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: single
+---
+
+  <h2>{{ page.title }}</h2>
+  {% if page.test.id %}
+  <h2>{% include button-image.html %}</h2>
+  {% endif %}
+  <p>Performed by {{ page.artist }}{% if page.director %}, directed by {{ page.director }}{% endif %}</p>
+  {% for work in page.works %}
+    <h3>{{ work.title }}</h3>
+    <p>Composed by {{ work.composer }}</p>
+    <ul>
+    {% for track in work.tracks %}
+      <li>{{ track.title }} ({{ track.duration }})</li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+
+{{content}}

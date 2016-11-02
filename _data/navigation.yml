@@ -5,3 +5,6 @@ main:
 
   - title: "Sample Navigation Link 2"
     url: /
+
+  - title: "Collections"
+    url: /buttons-page/
