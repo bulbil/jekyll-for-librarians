@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: collection
 title: "Stop Euromissiles"
 keyword: "Anti-Nuclear Movement"
 creator: "Len Munnik"
