@@ -1,11 +1,13 @@
 ---
 layout: portfolio
 title: "Stop Euromissiles"
+keyword: "Anti-Nuclear Movement"
 creator: "Len Munnik"
-description: "men pushing US and USSR missles away"
+publisher: "Swarthmore College Peace Collection"
 format: "celluloid pinback button"
+description: "men pushing US and USSR missles away"
 identifier: "spcbuttn00009"
 language: "english"
-img:
+contentdm:
   id: 777
 ---

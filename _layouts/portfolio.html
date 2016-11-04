@@ -1,20 +1,30 @@
 ---
 layout: single
 ---
-
-  <h2>{{ page.title }}</h2>
-  {% if page.test.id %}
-  <h2>{% include button-image.html %}</h2>
+<hr/>
+  {% if page.contentdm.id %}
+    {% include button-image.html %}
   {% endif %}
-  <p>Performed by {{ page.artist }}{% if page.director %}, directed by {{ page.director }}{% endif %}</p>
-  {% for work in page.works %}
-    <h3>{{ work.title }}</h3>
-    <p>Composed by {{ work.composer }}</p>
-    <ul>
-    {% for track in work.tracks %}
-      <li>{{ track.title }} ({{ track.duration }})</li>
-    {% endfor %}
-    </ul>
-  {% endfor %}
-
-{{content}}
+  <ul>
+  {% if page.creator %}
+    <li>Creator: {{ page.creator }}</li>
+  {% endif %}
+    {% if page.keyword %}
+    <li>Subject: {{ page.keyword }}</li>
+  {% endif %}
+  {% if page.publisher %}
+    <li>Publisher: {{ page.publisher }}</li>
+  {% endif %}
+  {% if page.format %}
+    <li>Format: {{ page.format }}</li>
+  {% endif %}
+  {% if page.description %}
+    <li>Description: {{ page.description}}</li>
+  {% endif %}
+  {% if page.identifier %}
+    <li>Identifier: {{ page.identifier }}</li>
+  {% endif %}
+  {% if page.language %}
+    <li>Language: {{ page.language }}</li>
+  {% endif %}
+  </ul>
