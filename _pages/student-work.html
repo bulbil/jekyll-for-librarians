@@ -1,0 +1,12 @@
+---
+layout: single
+title: "Student Work"
+author_profile: true
+permalink: /student-work/
+---
+
+<div class="grid__wrapper">
+{% for post in site.posts %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>

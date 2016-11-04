@@ -59,8 +59,8 @@ analytics:
 # Site Author
 author:
   name             : "DS@Swat"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/favicon-192x192.png"
+  bio              : "Digital Scholarship at Swarthmore College"
   location         : "Somewhere"
   email            : "digitalscholarship@swarthmore.edu"
   uri              : "http://ds.swarthmore.edu"

@@ -1,0 +1,35 @@
+# Authors
+
+# Site Author
+owner:
+  name             : "DS@Swat"
+  avatar           : /assets/img/favicon-192x192.png
+  bio              : "Digital Scholarship at Swarthmore College"
+  email            : "digitalscholarship@swarthmore.edu"
+  uri              : "http://ds.swarthmore.edu"
+  github           : "swat-ds"
+  twitter          : "@_nabilk"
+
+group1:
+  name: Eojin Choi and Alexander Jin
+  web:
+  bio:
+  avatar: /assets/img/group1.jpg
+
+group2:
+  name: Shuang Guan and Tiauna Lewis
+  web:
+  bio:
+  avatar: /assets/img/group2.jpg
+
+group3:
+  name: Romeo Luevano and Fanyi Ma
+  web:
+  bio:
+  avatar: /assets/img/group3.jpg
+
+group4:
+  name: Gretchen Trupp and Jamie A. Thomas
+  web:
+  bio:
+  avatar: /assets/img/group4.jpg
