@@ -1,0 +1,31 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item collection-item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/ImageObject">
+    {% if include.type == "grid" and post.header.teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | absolute_url }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% elsif include.type == "grid" and post.contentdm.id %}
+    <div class="archive__item-teaser">
+        <a href=" {{ post.url | absolute_url }}">
+        <img src="http://triptych.brynmawr.edu/utils/getprintimage/collection/Buttons/id/{{ post.contentdm.id }}/scale/100" />
+        </a>
+    </div>
+    {% endif %}
+    <h3 class="archive__item-title" itemprop="headline">
+        <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title | truncatewords: 5 }}</a>
+    </h3>
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+  </article>
+</div>

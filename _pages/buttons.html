@@ -1,0 +1,12 @@
+---
+layout: single
+title: "Peace Button Collection"
+author_profile: false
+permalink: /buttons/
+---
+
+<div class="grid__wrapper">
+{% for post in site.collection %}
+  {% include collection-single.html type="grid" %}
+{% endfor %}
+</div>
