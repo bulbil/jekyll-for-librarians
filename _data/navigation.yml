@@ -1,23 +1,8 @@
 # main links
 main:
-<<<<<<< HEAD
-  - title: "Sample Navigation Link"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
 
-  - title: "Sample Navigation Link 2"
-    url: /
+  - title: "Student Work"
+    url: /student-work/
 
   - title: "Collections"
     url: /buttons-page/
-=======
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
->>>>>>> ee42347f4f223bec97cac0d22fd7b54e8edec36e

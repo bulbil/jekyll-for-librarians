@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Jekyll for Librarians"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "DS@Swat"
+description              : "Example site for DLF LAC Preconference Workshop 2016"
 url                      : http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -28,30 +28,9 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
 
 # Social Sharing
 twitter:
@@ -77,35 +56,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "DS@Swat"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Somewhere"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-
+  email            : "digitalscholarship@swarthmore.edu"
+  uri              : "http://ds.swarthmore.edu"
+  github           : "swat-ds"
+  twitter          : "@_nabilk"
 
 # Reading Files
 include:
@@ -230,23 +188,11 @@ compress_html:
   ignore:
     envs: development
 
-<<<<<<< HEAD
 #collections
 collections:
     portfolio:
       output: true
       permalink: /portfolio/:path/
-
-defaults:
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-=======
 
 # Defaults
 defaults:
@@ -261,4 +207,3 @@ defaults:
       comments: # true
       share: true
       related: true
->>>>>>> ee42347f4f223bec97cac0d22fd7b54e8edec36e

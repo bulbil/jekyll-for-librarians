@@ -16,9 +16,11 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "jekyll", "~> 3.3"
+  spec.add_dependency "i18n", "~> 0.7.0"
+
 
   spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
+  # spec.add_development_dependency "rake", "~> 10.5"
 
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 0.10"
