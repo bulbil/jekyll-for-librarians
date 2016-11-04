@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image or page.timeline.id or page.storymap.id %}
   {% include page__hero.html %}
 {% endif %}
 
@@ -22,7 +22,7 @@ layout: default
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
+      {% unless page.header.overlay_color or page.header.overlay_image or page.header.image or page.timeline.id or page.storymap.id %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}
@@ -32,6 +32,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

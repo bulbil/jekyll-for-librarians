@@ -44,6 +44,10 @@
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
       {% endif %}
     </div>
+  {% elsif page.storymap.id %}
+    {% include page__storymap.html %}
+  {% elsif page.timeline.id %}
+    {% include page__timeline.html %}
   {% else %}
     <img src="{{ img_path }}" alt="{{ page.title }}" class="page__hero-image">
   {% endif %}
