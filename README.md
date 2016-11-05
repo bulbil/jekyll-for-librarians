@@ -11,6 +11,7 @@
 
 ## But why Jekyll and not Omeka or Wordpress?
 
+
 ---
 
 
@@ -20,23 +21,20 @@
 
 ![wp]
 
-- User -> webserver -> <-mysql database
-	- set up webserver, php and mysql
-	
-
-
-
 [jekyll]: http://d1qmdf3vop2l07.cloudfront.net/cantaloupe-spoonbill.cloudvent.net/compressed/5ccb5dcae4bc636c52f8b350968ec7e5.png
 
 ![jekyll]
 
-- Jekyll needs index.html (css, html5 and JS)
+- We found ourselves creating WordPress instances that had one posts
+- They were used once and quickly forgotten
+
 
 ---
 ## Speed
 
 - Jekyll returns one file
 - WP has to build the entire site from scratch for each request
+
 
 ---
 ## Securtiy
