@@ -31,17 +31,19 @@
 ![jekyll]
 
 - Jekyll needs index.html (css, html5 and JS)
+
 ---
 ## Speed
 
 - Jekyll returns one file
 - WP has to build the entire site from scratch for each request
+
 ---
 ## Securtiy
 
 - WP and DB need multiple updates
 	- Each plugin you introduce becomes a security risk
-	
+
 ---
 ## Scalabiltiy 
 
@@ -52,6 +54,7 @@
 ![jekyllscalability]
 
 all images from [Jekyll Tips](http://jekyll.tips/)
+
 ---
 ### Follow Along Instructions
 
