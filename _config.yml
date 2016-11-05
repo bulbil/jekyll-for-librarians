@@ -15,8 +15,6 @@ url                      : "http://localhost:4000" # the base hostname & protoco
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "swat-ds/jekyll-for-librarians"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-host                     : localhost
-port                     : 4000
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
