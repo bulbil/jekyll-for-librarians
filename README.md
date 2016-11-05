@@ -7,9 +7,7 @@
 
 - here we describe how to start a nitrous.io account
 
-<a href="https://www.nitrous.io/quickstart">
-  <img src="https://nitrous-image-icons.s3.amazonaws.com/quickstart.png" alt="Nitrous Quickstart" width=142 height=34>
-</a>
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
 
 - show vanilla jekyll install
 - clone a repo
