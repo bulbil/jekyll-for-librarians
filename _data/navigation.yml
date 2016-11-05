@@ -6,3 +6,6 @@ main:
 
   - title: "Political Buttons Exhibit"
     url: /buttons/
+
+  - title: "Github Repo"
+    url: https://github.com/swat-ds/jekyll-for-librarians.git
