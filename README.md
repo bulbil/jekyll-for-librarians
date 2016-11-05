@@ -29,6 +29,7 @@
 [jekyll]: http://d1qmdf3vop2l07.cloudfront.net/cantaloupe-spoonbill.cloudvent.net/compressed/5ccb5dcae4bc636c52f8b350968ec7e5.png
 
 ![jekyll]
+
 - Jekyll needs index.html (css, html5 and JS)
 ---
 ## Speed
@@ -40,6 +41,7 @@
 
 - WP and DB need multiple updates
 	- Each plugin you introduce becomes a security risk
+	
 ---
 ## Scalabiltiy 
 
