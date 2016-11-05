@@ -7,7 +7,7 @@
 
 - here we describe how to start a nitrous.io account
 
-[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart)
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart?repo=https%3A%2F%2Fgithub.com%2Fswat-ds%2Fjekyll-for-librarians)
 
 - show vanilla jekyll install
 - clone a repo
