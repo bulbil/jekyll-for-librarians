@@ -1,6 +1,5 @@
 ---
 title: How Zombies Inform our Understanding of Racism
-layout: single
 author: group2
 modified: 2016-04-29
 excerpt: Since the appropriation of the Haitian *zonbi* into American popular culture, zombie narratives have reflected worries and tensions in American society.

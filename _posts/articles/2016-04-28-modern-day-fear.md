@@ -1,6 +1,5 @@
 ---
 title: Zombies, The Other, & the Spread of Modern Day Fear
-layout: single
 author: group3
 modified: 2016-04-28
 excerpt: The popularity of American-centric zombie culture can be linked to fears of the Other and social anxieties over the breakdown of existing power structures.

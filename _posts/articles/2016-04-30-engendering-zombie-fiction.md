@@ -1,6 +1,5 @@
 ---
 title: Engendering Zombie Fiction
-layout: single
 author: group1
 modified: 2016-04-30
 excerpt: One of the more nuanced issues presented by zombie fiction connects with gender and societal concern against feminism.
