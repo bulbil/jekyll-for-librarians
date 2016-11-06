@@ -94,14 +94,18 @@ Knowing that even if (ahem) there's no one to maintain the resource, you aren't 
 
 This requires that you have Jekyll installed!
 
-1) Copy `jekyll-for-librarians` to your desktop
-2) Using either Terminal or Command Prompt (or Git Bash), navigate to the project folder
+**1)** Copy `jekyll-for-librarians` to your desktop
+
+**2)** Using either Terminal or Command Prompt (or Git Bash), navigate to the project folder
     - `$ cd [path]/jekyll-for-librarians`
-3) Try to run the following command
+
+**3)** Try to run the following command
     - `$ bundle exec jekyll build`
-4) If you don't have the bundler gem installed, you'll find it included in the project foler.
+
+**4)** If you don't have the bundler gem installed, you'll find it included in the project foler.
     - `$ gem install --local bundler-1.13.6.gem`
-5) Now:
+
+**5)** Now:
     - `$ bundle exec jekyll build`
     - `$ bundle exec jekyll serve`
 
