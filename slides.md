@@ -7,11 +7,6 @@
 
 ![howjekyll]
 
-
-
-## But why Jekyll and not Omeka or Wordpress?
-
-
 ---
 
 
@@ -25,22 +20,11 @@
 
 ![jekyll]
 
-- We found ourselves creating WordPress instances that had one posts
-- They were used once and quickly forgotten
-
-
 ---
 ## Speed
 
-- Jekyll returns one file
-- WP has to build the entire site from scratch for each request
-
-
 ---
 ## Securtiy
-
-- WP and DB need multiple updates
-	- Each plugin you introduce becomes a security risk
 
 ---
 ## Scalabiltiy 
