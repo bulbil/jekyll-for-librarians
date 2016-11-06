@@ -1,6 +1,5 @@
 ---
 title: "Challenging Normal: A Linguistic Exploration of Horror & Sci-Fi"
-layout: single
 author: group4
 modified: 2016-04-27
 excerpt: We explore how the discursive construction and imagining of the zombie across science fiction and survival horror reproduces and reflects mainstream conceptions of marginalized peoples.
