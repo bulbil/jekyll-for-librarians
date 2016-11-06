@@ -72,6 +72,7 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - slides
   - tmp
 keep_files:
   - .git
