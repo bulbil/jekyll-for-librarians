@@ -14,6 +14,8 @@ _Nabil Kashyap / @_nabilk_
 
 ### 1) Click the :point_down: Button! :point_down:
 
+[![Nitrous Quickstart](https://nitrous-image-icons.s3.amazonaws.com/quickstart.svg)](https://www.nitrous.io/quickstart?repo=https%3A%2F%2Fgithub.com%2Fswat-ds%2Fjekyll-for-librarians)
+
 This will launch a new Jekyll project on a platform called Nitrous.io, which will ask you to authenticate using your GitHub account. If you'd like to follow along you'll need a [GitHub](https://github.com/) account first.
 
 > One feature of Jekyll is how unopinionated it is about how you develop. Whether you are building a website on your own machine, on a server, or some other configuration. Nitrous.io is an example of an *other*, a cloud based service (unfortunately sunsetting very soon!) that takes advantage of that flexibility, providing a web-based interface for a suitable, consistent environment. [^1]
