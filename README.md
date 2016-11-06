@@ -32,7 +32,7 @@ Two commands worth exploring are `build` and `serve`.
 
 `$ jekyll build`
 
-The Jekyll library will read some configuration settings then comb through a set of folders, outputting a set of static html files based on the content of those folders. Content is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Metadata is provided through [YAML front matter](https://jekyllrb.com/docs/frontmatter/). <sup id="a2'>[2](#note2)</sup>
+The Jekyll library will read some configuration settings then comb through a set of folders, outputting a set of static html files based on the content of those folders. Content is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Metadata is provided through [YAML front matter](https://jekyllrb.com/docs/frontmatter/). <sup id="a2">[2](#note2)</sup>
 
 `$ jekyll serve --incremental` 
 
