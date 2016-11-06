@@ -1,6 +1,6 @@
 # DLF 2016 / Jekyll for Librarians
 
-[![https://raw.githubusercontent.com/swat-ds/jekyll-for-librarians/master/assets/img/favicon-96x96.png]](http://ds.swarthmore.edu)
+[![mccabelibrary](https://raw.githubusercontent.com/swat-ds/jekyll-for-librarians/master/assets/img/favicon-96x96.png)](http://ds.swarthmore.edu)
 
 _Roberto Vargas / @betotecario_
 
