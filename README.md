@@ -44,6 +44,8 @@ This executes the `build` command but then launches a web server that "watches" 
 
 Instead of a vanilla install, we have an example of a full-fledged Jekyll theme ([minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)). In addition, behind the scenes we are running the Ruby gem `bundler` to install useful software libraries. These are helpful for development but *not* required to deliver site content. The served site files are good ol' HTML/CSS/JS and nothing else.
 
+In addition to the Ruby gem Jekyll, many themes (this one included) rely on another gem called [Bundler](http://bundler.io/), which greatly simplifies the development process.
+
 ---
 
 ### 4) How might Jekyll be extended and customized for library uses?
@@ -66,9 +68,9 @@ These remarks only scratch the surface, if that. Two major questions remain. How
 
 ---
 
-### 6) And relax!
+### 6) And relax _!__
 
-Knowing that even if (ahem) there's no one to maintain the resource, you aren't opening up yourself to security vulnerability or the overhead of a database process or any sweat at all :cold_sweat: in case such a resource needs to be transfered or updated. 
+Knowing that even if (ahem) there's no one to maintain the resource, you aren't opening up yourself to creeping security vulnerabilities or the overhead of a database process or any sweat at all :cold_sweat: in case such a resource needs to be transfered or updated or reused. If you have forked a theme repository as we have here, you can also rest assured that you can incorporate any future updates to the theme using Git with a clear trail of how those updates diverge from whatever customizations you might have made.
 
 ---
 
@@ -85,3 +87,22 @@ Knowing that even if (ahem) there's no one to maintain the resource, you aren't 
 - Cloud Cannon's [Jekyll Tips](http://jekyll.tips/)
 - [Jekyll Theme Repository](http://www.jekyllthemes.io/)
 - Michael Rose, ["How I am using jekyll"](https://mademistakes.com/articles/using-jekyll-2016/). A great overview of more advanced Jekyll-based web development workflows.
+
+---
+
+### _OPTIONAL:_ Developing Locally Using the USB sticks provided
+
+This requires that you have Jekyll installed!
+
+1) Copy `jekyll-for-librarians` to your desktop
+2) Using either Terminal or Command Prompt (or Git Bash), navigate to the project folder
+    - `$ cd [path]/jekyll-for-librarians`
+3) Try to run the following command
+    - `$ bundle exec jekyll build`
+4) If you don't have the bundler gem installed, you'll find it included in the project foler.
+    - `$ gem install --local bundler-1.13.6.gem`
+5) Now:
+    - `$ bundle exec jekyll build`
+    - `$ bundle exec jekyll serve`
+
+
