@@ -59,7 +59,7 @@ Instead of a vanilla install, we have an example of a full-fledged Jekyll theme 
 These remarks only scratch the surface, if that. Two major questions remain. How do you publish? How might you collaborate?
 
 - Copy (`scp` or `ftp`) `_site` files onto the server (no special permissions or software required)
-- Publish using [GitHub Pages](https://pages.github.com/, GitHub's integrated Jekyll implementation
+- Publish using [GitHub Pages](https://pages.github.com/), GitHub's integrated Jekyll implementation
 - Or, if feeling plucky, deploy using [git hooks](https://jekyllrb.com/docs/deployment-methods/)
 - Even fancier, we might talk about using [GitHub webhooks](https://developer.github.com/webhooks/), e.g. this [PHP based version](https://github.com/dintel/php-github-webhook)
 - Or you could possibly combine all of the above, plus a lightweight editing layer over GitHub ([prose.io](http://prose.io/#about)) to maintain a byzantine set of guidelines and documentation, consisting of 1000s of pages, helping guide users through one of [the most complex bureaucracies on earth](https://www.healthcare.gov/).
