@@ -35,4 +35,8 @@
 [jekyllscalability]: http://d1qmdf3vop2l07.cloudfront.net/cantaloupe-spoonbill.cloudvent.net/compressed/24ec735f0b8e19a0aeb459b343180f67.png
 ![jekyllscalability]
 
+"Projects involving minimal automation would ostensibly afford greater personal or collective awareness of how decisions are made and data is produced, even when those decisions and data are processed at a rate beyond human perception and apprehension."
+
+In *Minimal Definitions* by Jentery Sayers 
+
 all images from [Jekyll Tips](http://jekyll.tips/)
