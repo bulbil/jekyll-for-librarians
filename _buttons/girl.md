@@ -1,13 +1,13 @@
 ---
 layout: collection
 title: "[None]"
-creator: "unkown"
-publisher: "Swarthmore College Peace Collection"
+dc_creator: "unkown"
+dc_publisher: "Swarthmore College Peace Collection"
 dc_date: "undated"
-format: "celluloid pinback button"
-description: "Girl (woman?) with hat; girl guide/ girl scout"
-identifier: "spcbuttn00053"
-language: "english"
+dc_format: "celluloid pinback button"
+dc_description: "Girl (woman?) with hat; girl guide/ girl scout"
+dc_identifier: "spcbuttn00053"
+dc_language: "english"
 contentdm:
   id: 98
 ---

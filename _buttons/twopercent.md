@@ -1,14 +1,14 @@
 ---
 layout: collection
 title: "2%"
-keyword: "Disarmament"
-creator: "Unknown"
-publisher: "Swarthmore College Peace Collection"
+dc_keyword: "Disarmament"
+dc_creator: "Unknown"
+dc_publisher: "Swarthmore College Peace Collection"
 dc_date: "20th century"
-format: "celluloid pinback button"
-description: "none"
-identifier: "spcbuttn00078"
-language: "english"
+dc_format: "celluloid pinback button"
+dc_description: "none"
+dc_identifier: "spcbuttn00078"
+dc_language: "english"
 contentdm:
   id: 486
 ---

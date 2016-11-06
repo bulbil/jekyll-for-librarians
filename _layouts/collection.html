@@ -6,25 +6,25 @@ layout: single
     {% include button-image.html %}
   {% endif %}
   <ul>
-  {% if page.creator %}
-    <li>Creator: {{ page.creator }}</li>
+  {% if page.dc_creator %}
+    <li>Creator: {{ page.dc_creator }}</li>
   {% endif %}
-    {% if page.keyword %}
-    <li>Subject: {{ page.keyword }}</li>
+    {% if page.dc_keyword %}
+    <li>Subject: {{ page.dc_keyword }}</li>
   {% endif %}
-  {% if page.publisher %}
-    <li>Publisher: {{ page.publisher }}</li>
+  {% if page.dc_publisher %}
+    <li>Publisher: {{ page.dc_publisher }}</li>
   {% endif %}
-  {% if page.format %}
-    <li>Format: {{ page.format }}</li>
+  {% if page.dc_format %}
+    <li>Format: {{ page.dc_format }}</li>
   {% endif %}
-  {% if page.description %}
-    <li>Description: {{ page.description}}</li>
+  {% if page.dc_description %}
+    <li>Description: {{ page.dc_description}}</li>
   {% endif %}
-  {% if page.identifier %}
-    <li>Identifier: {{ page.identifier }}</li>
+  {% if page.dc_identifier %}
+    <li>Identifier: {{ page.dc_identifier }}</li>
   {% endif %}
-  {% if page.language %}
-    <li>Language: {{ page.language }}</li>
+  {% if page.dc_language %}
+    <li>Language: {{ page.dc_language }}</li>
   {% endif %}
   </ul>

@@ -1,14 +1,14 @@
 ---
 layout: collection
 title: "The Great Peace March"
-keyword: "Anti-Nuclear Movement"
-creator: "The Great Peace March"
-publisher: "Swarthmore College Peace Collection"
+dc_keyword: "Anti-Nuclear Movement"
+dc_creator: "The Great Peace March"
+dc_publisher: "Swarthmore College Peace Collection"
 dc_date: "1980s circa"
-format: "celluloid pinback button"
-description: "peace symbol"
-identifier: "spcbuttn00001"
-language: "english"
+dc_format: "celluloid pinback button"
+dc_description: "peace symbol"
+dc_identifier: "spcbuttn00001"
+dc_language: "english"
 contentdm:
   id: 35
 ---

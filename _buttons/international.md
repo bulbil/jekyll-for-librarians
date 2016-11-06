@@ -1,13 +1,13 @@
 ---
 layout: collection
 title: "International Peace Congress"
-keyword: "Conferences/Congresses"
-publisher: "Swarthmore College Peace Collection"
+dc_keyword: "Conferences/Congresses"
+dc_publisher: "Swarthmore College Peace Collection"
 dc_date: "1904"
-format: "metal, with paper backing"
-description: "scales of justice"
-identifier: "spcbuttn00016"
-language: "english"
+dc_format: "metal, with paper backing"
+dc_description: "scales of justice"
+dc_identifier: "spcbuttn00016"
+dc_language: "english"
 contentdm:
   id: 467
 ---

@@ -1,14 +1,14 @@
 ---
 layout: collection
 title: "Nuclear Moratorium"
-keyword: "Anti-Nuclear Movement"
-creator: "AFSC, Philadelphia, Pennsylvania"
-publisher: "Swarthmore College Peace Collection"
+dc_keyword: "Anti-Nuclear Movement"
+dc_creator: "AFSC, Philadelphia, Pennsylvania"
+dc_publisher: "Swarthmore College Peace Collection"
 dc_date: "undated"
-format: "celluloid pinback button"
-description: "broken blue missile with a dove in the center"
-identifier: "spcbuttn00012"
-language: "english"
+dc_format: "celluloid pinback button"
+dc_description: "broken blue missile with a dove in the center"
+dc_identifier: "spcbuttn00012"
+dc_language: "english"
 contentdm:
   id: 109
 ---
