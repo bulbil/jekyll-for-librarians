@@ -18,7 +18,7 @@ _Nabil Kashyap / @_nabilk_
 
 This will launch a new Jekyll project on a platform called Nitrous.io, which will ask you to authenticate using your GitHub account. If you'd like to follow along you'll need a [GitHub](https://github.com/) account first.
 
-> One feature of Jekyll is how unopinionated it is about how you develop. Whether you are building a website on your own machine, on a server, or some other configuration. Nitrous.io is an example of an *other*, a cloud based service (unfortunately sunsetting very soon!) that takes advantage of that flexibility, providing a web-based interface for a suitable, consistent environment. <sup>[1](#note1)</sup>
+> One feature of Jekyll is how unopinionated it is about how you develop. Whether you are building a website on your own machine, on a server, or some other configuration. Nitrous.io is an example of an *other*, a cloud based service (unfortunately sunsetting very soon!) that takes advantage of that flexibility, providing a web-based interface for a suitable, consistent environment. <sup><a name='note1'>1</a></sup>
 
 ---
 
@@ -32,7 +32,7 @@ Two commands worth exploring are `build` and `serve`.
 
 `$ jekyll build`
 
-The Jekyll library will read some configuration settings then comb through a set of folders, outputting a set of static html files based on the content of those folders. Content is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Metadata is provided through [YAML front matter](https://jekyllrb.com/docs/frontmatter/). <sup>[2](#note2)</sup>
+The Jekyll library will read some configuration settings then comb through a set of folders, outputting a set of static html files based on the content of those folders. Content is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Metadata is provided through [YAML front matter](https://jekyllrb.com/docs/frontmatter/). <sup><a name="note2'>2</a></sup>
 
 `$ jekyll serve --incremental` 
 
@@ -73,6 +73,7 @@ Knowing that even if (ahem) there's no one to maintain the resource, you aren't 
 ---
 
 <sup>[1](#note1)</sup>: An developer environment basically describes the combination of an operating system, any programming languages and any software libraries (and their particular versions). Even seemingly small differences can cause surprising differences in software behavior.
+
 <sup>[2](#note2)</sup>: [YAML Ain't Markup Language](http://yaml.org/)!
 
 ---
