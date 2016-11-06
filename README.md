@@ -1,7 +1,9 @@
 # DLF 2016 / Jekyll for Librarians
 
 [![https://raw.githubusercontent.com/swat-ds/jekyll-for-librarians/master/assets/img/favicon-96x96.png]](http://ds.swarthmore.edu)
+
 _Roberto Vargas / @betotecario_
+
 _Nabil Kashyap / @_nabilk_
 
 =======
@@ -62,7 +64,9 @@ These remarks only scratch the surface, if that. Two major questions remain. How
 
 ---
 
-6) And relax! Knowing that even if (ahem) there's no one to maintain the resource, you aren't opening up yourself to security vulnerability or the overhead of a database process or any sweat at all :cold_sweat: in case such a resource needs to be transfered or updated. 
+### 6) And relax!
+
+Knowing that even if (ahem) there's no one to maintain the resource, you aren't opening up yourself to security vulnerability or the overhead of a database process or any sweat at all :cold_sweat: in case such a resource needs to be transfered or updated. 
 
 ---
 
